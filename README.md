@@ -4,6 +4,9 @@ Two static pages, deliberately dependency-free, served by GitHub Pages:
 
 - `index.html` — the **Support URL** App Store Connect requires
 - `privacy.html` — the **Privacy Policy URL** it also requires
+- `terms.html` — the **Terms of Use** (EULA) the app links to at sign-up and in
+  Settings. It is the source of truth for the terms; bump `TERMS_VERSION` in the
+  app's `src/features/auth/api.ts` when it changes.
 
 The policy's source of truth is `docs/PRIVACY.md` in the app repo. If the app
 starts collecting something new, change it there, mirror it here, and update the

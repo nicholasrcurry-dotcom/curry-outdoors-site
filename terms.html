@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terms of Use — Curry Outdoors</title>
+    <meta
+      name="description"
+      content="The rules for using Curry Outdoors: your content, conduct, hunting laws, and our responsibilities."
+    />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0e1512" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --bg: #0e1512;
+        --surface: #16211b;
+        --border: #2a3a2f;
+        --text: #e8efe9;
+        --muted: #b9c7bc;
+        --faint: #8a9a8d;
+        --accent: #6fbf8f;
+        --primary: #2f6d4f;
+        --focus: #9fdcb6;
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-padding-top: 24px;
+      }
+      body {
+        margin: 0;
+        padding: 32px 20px 64px;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+      }
+      ::selection {
+        background: var(--primary);
+        color: #fff;
+      }
+      .page {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      a {
+        color: var(--accent);
+        text-underline-offset: 0.2em;
+        text-decoration-thickness: 1px;
+        overflow-wrap: anywhere;
+      }
+      a:hover {
+        color: var(--focus);
+      }
+      :focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 3px;
+        border-radius: 4px;
+      }
+      .back {
+        display: inline-block;
+        margin: -8px 0 20px -8px;
+        padding: 8px;
+        font-size: 14px;
+        color: var(--muted);
+        text-decoration: none;
+      }
+      .back:hover {
+        color: var(--text);
+      }
+      h1,
+      h2 {
+        text-wrap: balance;
+      }
+      p,
+      li {
+        text-wrap: pretty;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: -0.015em;
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 19px;
+        line-height: 1.3;
+        margin: 44px 0 12px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+      .dates {
+        color: var(--faint);
+        font-size: 14px;
+        margin: 0 0 28px;
+      }
+      .dates span {
+        white-space: nowrap;
+      }
+      .contact {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 16px 18px;
+        margin: 28px 0;
+      }
+      .contact p {
+        margin: 0;
+      }
+      strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+      p {
+        color: var(--muted);
+        margin: 0 0 16px;
+      }
+      ul {
+        padding-left: 22px;
+        margin: 0 0 16px;
+      }
+      li {
+        margin-bottom: 10px;
+        color: var(--muted);
+      }
+      li::marker {
+        color: var(--faint);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 8px 0 20px;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 12px 12px;
+        border-bottom: 1px solid var(--border);
+        color: var(--muted);
+        vertical-align: top;
+      }
+      th:first-child,
+      td:first-child {
+        padding-left: 0;
+      }
+      th {
+        color: var(--faint);
+        font-size: 12px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      td:first-child {
+        color: var(--text);
+        font-weight: 600;
+        white-space: nowrap;
+      }
+      footer {
+        max-width: 680px;
+        margin: 56px auto 0;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        color: var(--faint);
+        font-size: 14px;
+      }
+      footer a {
+        color: var(--faint);
+      }
+      footer a:hover {
+        color: var(--text);
+      }
+      /* On phones each service becomes its own block, so no column hides off-screen. */
+      @media (max-width: 560px) {
+        thead {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          clip-path: inset(50%);
+        }
+        table,
+        tbody,
+        tr,
+        td {
+          display: block;
+        }
+        tr {
+          padding: 14px 0;
+          border-bottom: 1px solid var(--border);
+        }
+        tr:first-child {
+          border-top: 1px solid var(--border);
+        }
+        td {
+          border: 0;
+          padding: 0;
+        }
+        td:first-child {
+          margin-bottom: 4px;
+        }
+        td + td::before {
+          content: attr(data-label) ": ";
+          color: var(--faint);
+        }
+      }
+      @media print {
+        :root {
+          --bg: #fff;
+          --surface: #fff;
+          --border: #ccc;
+          --text: #000;
+          --muted: #222;
+          --faint: #555;
+          --accent: #000;
+        }
+        .back {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <a class="back" href="./">&larr; Curry Outdoors</a>
+      <h1>Terms of Use</h1>
+      <p class="dates">
+        <span>Effective <time datetime="2026-11-07">7 November 2026</time></span> ·
+        <span>Last updated <time datetime="2026-11-07">7 November 2026</time></span>
+      </p>
+
+      <p>
+        These terms are the agreement between you and Curry Outdoors ("the app", "we", "us") for
+        using the app. By creating an account you agree to them. If you don't agree, don't use the
+        app.
+      </p>
+
+      <div class="contact">
+        <p>
+          Questions or problems: <a href="mailto:support@currysoutdoors.com">support@currysoutdoors.com</a>
+        </p>
+      </div>
+
+      <h2 id="account">Your account</h2>
+      <ul>
+        <li>You must be at least 13 years old. If you are under 18, you need a parent or guardian's
+          permission.</li>
+        <li>Give accurate sign-up details and keep your password private. You are responsible for
+          what happens under your account.</li>
+        <li>You can delete your account at any time in Settings &rarr; Delete my account. The
+          <a href="./privacy.html#retention">privacy policy</a> explains what happens to your
+          data.</li>
+      </ul>
+
+      <h2 id="content">Your content</h2>
+      <p>
+        You own what you add to the app — photos, messages, sightings, notes and map points. To run
+        the app, you give us a limited, non-exclusive, royalty-free licence to store, copy, process
+        and display that content to the members of the property you add it to. The licence ends
+        when the content is deleted, except for copies we have to keep briefly in backups or for a
+        report under review.
+      </p>
+      <p>
+        Only post content you have the right to share. Content you add to a property is visible to
+        everyone in that property, and stays with the property if you leave or delete your account
+        (see the <a href="./privacy.html#retention">privacy policy</a>).
+      </p>
+
+      <h2 id="conduct">No objectionable content or abusive users</h2>
+      <p>
+        <strong>We have zero tolerance for objectionable content and abusive behaviour.</strong>
+        You must not post or send anything that:
+      </p>
+      <ul>
+        <li>harasses, bullies, threatens or intimidates anyone;</li>
+        <li>is hateful or discriminatory toward people based on race, ethnicity, religion,
+          gender, sexual orientation, disability or similar traits;</li>
+        <li>is sexually explicit, or sexualises minors in any way;</li>
+        <li>shows or encourages violence against people, or self-harm;</li>
+        <li>shares someone else's private information without their consent;</li>
+        <li>is spam, a scam, or impersonates someone else;</li>
+        <li>breaks the law, including wildlife and hunting laws, or infringes someone else's
+          copyright or other rights.</li>
+      </ul>
+      <p>
+        You also must not try to access properties you were not invited to, interfere with the app
+        or its servers, or scrape or reverse-engineer it.
+      </p>
+
+      <h2 id="reporting">Reporting and blocking</h2>
+      <p>
+        Long-press any chat message, or open a photo or the Members screen, to
+        <strong>report</strong> content or a person, or to <strong>block</strong> someone. Blocking
+        hides that person's chat messages and notifications from you. Reports go to us, not to the
+        person reported.
+      </p>
+      <p>
+        We review reports within 24 hours. When content breaks these terms we remove it, and we
+        may suspend or permanently remove the account that posted it. Property owners and admins
+        can also delete messages and remove members from their property.
+      </p>
+
+      <h2 id="hunting">Hunting laws, land and safety</h2>
+      <ul>
+        <li><strong>Follow the law.</strong> You are responsible for following all hunting, game,
+          wildlife, firearm and trail-camera laws and regulations where you hunt — including
+          licences, seasons, bag limits, and any rules on using cameras, electronic devices or
+          shared animal locations to aid a hunt. These rules differ by state and change over
+          time.</li>
+        <li><strong>Respect property lines.</strong> Only hunt or place equipment on land where you
+          have permission. Boundaries and map points in the app are drawn by users on satellite
+          imagery and are not legal surveys. Don't rely on them to decide where you may go.</li>
+        <li><strong>Use your own judgement.</strong> Weather, wind, scent and stand suggestions are
+          estimates for planning, not guarantees. Always check conditions yourself and follow safe
+          hunting practices, including tree-stand safety.</li>
+      </ul>
+
+      <h2 id="third-party">Maps, weather and other services</h2>
+      <p>
+        The app uses services from other companies, including maps and satellite imagery from
+        Mapbox and its data providers (© Mapbox, © OpenStreetMap contributors) and weather data
+        from Open-Meteo.com (CC BY 4.0). Their data is provided as-is, may be out of date or
+        inaccurate, and is subject to their own terms.
+      </p>
+
+      <h2 id="disclaimer">No warranty</h2>
+      <p>
+        The app is provided "as is" and "as available". To the fullest extent the law allows, we
+        make no warranties of any kind, express or implied, including that the app will be
+        accurate, uninterrupted, secure or error-free, or fit for a particular purpose. Keep your
+        own copies of anything important.
+      </p>
+
+      <h2 id="liability">Limitation of liability</h2>
+      <p>
+        To the fullest extent the law allows, we are not liable for any indirect, incidental,
+        special, consequential or punitive damages, or for lost data, injury, property damage, or
+        legal penalties that result from using the app, from content posted by other users, or from
+        relying on its maps, boundaries, weather or recommendations. Our total liability for any
+        claim relating to the app is limited to the amount you paid us for it in the 12 months
+        before the claim, or US$50, whichever is greater. Some places don't allow these limits, so
+        they may not all apply to you.
+      </p>
+
+      <h2 id="termination">Ending your use</h2>
+      <p>
+        You can stop using the app and delete your account at any time. We may suspend or end your
+        access if you break these terms, if the law requires it, or if we stop offering the app.
+      </p>
+
+      <h2 id="apple">If you got the app from the Apple App Store</h2>
+      <ul>
+        <li>These terms are between you and us, not Apple. Apple is not responsible for the app or
+          its content.</li>
+        <li>Apple has no obligation to provide maintenance or support for the app.</li>
+        <li>If the app fails to meet any applicable warranty, you may notify Apple and Apple will
+          refund the purchase price, if any. Apple has no other warranty obligation for the app.</li>
+        <li>Apple is not responsible for addressing any claims by you or anyone else relating to
+          the app, including product liability claims, claims that the app fails to meet legal or
+          regulatory requirements, consumer protection claims, or claims that the app infringes
+          someone else's intellectual property. We are responsible for those, as far as these
+          terms require.</li>
+        <li>You confirm that you are not located in a country subject to a US government embargo,
+          and are not on any US government list of prohibited or restricted parties.</li>
+        <li>Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce
+          them against you.</li>
+      </ul>
+
+      <h2 id="changes">Changes to these terms</h2>
+      <p>
+        If we change these terms we will update this page and the "last updated" date. Material
+        changes will be announced in the app. Continuing to use the app after a change means you
+        accept the new terms.
+      </p>
+
+      <h2 id="contact">Contact</h2>
+      <p>
+        <a href="mailto:support@currysoutdoors.com">support@currysoutdoors.com</a>
+      </p>
+    </main>
+
+    <footer>
+      Curry Outdoors &middot;
+      <a href="./">Support</a> &middot;
+      <a href="./privacy.html">Privacy</a> &middot;
+      <a href="mailto:support@currysoutdoors.com">Contact</a>
+    </footer>
+  </body>
+</html>
