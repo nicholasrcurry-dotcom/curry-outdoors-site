@@ -11,4 +11,5 @@ App Privacy answers in App Store Connect — Apple compares declarations against
 observed behaviour.
 
 This repo is public so GitHub Pages can serve it for free. It contains nothing
-but these pages.
+but these pages, their favicon, and the `.claude/` design skill (GitHub Pages
+skips dot-folders, so it is never served).
