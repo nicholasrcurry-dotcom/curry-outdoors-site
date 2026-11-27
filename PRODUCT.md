@@ -19,7 +19,7 @@ web
 
 ## Product Purpose
 
-This site is the public face of **Curry Outdoors**, a cross-platform (iOS + Android)
+This site is the public face of **Old Crew Outdoors**, a cross-platform (iOS + Android)
 deer-hunting app. The app gives a hunting group one shared workspace for a property:
 satellite map, stands and blinds, trail-camera photos, sightings, buck profiles, weather and
 wind, and a group chat.
@@ -42,7 +42,7 @@ recent activity, history in plain language) rather than opaque AI.
 - The privacy policy's source of truth is `docs/PRIVACY.md` in the app repo. Any change must
   be mirrored here and in the App Privacy answers in App Store Connect — Apple compares the
   declarations against observed behaviour.
-- Support email `support@currysoutdoors.com` (spelling confirmed) forwards to the owner.
+- Support email `support@oldcrewoutdoors.com` forwards to the owner via Cloudflare Email Routing. The old `support@currysoutdoors.com` still forwards too, for mail sent before the rename.
 
 ## Capabilities and Constraints
 
@@ -55,7 +55,7 @@ recent activity, history in plain language) rather than opaque AI.
 
 ## Brand Commitments
 
-- Name: **Curry Outdoors**.
+- Name: **Old Crew Outdoors**.
 - Official tagline: **"Know the Land. Hunt Smarter."**
 - Voice: plain language, direct, no marketing hedging ("We do not sell your data, we do not
   show ads").

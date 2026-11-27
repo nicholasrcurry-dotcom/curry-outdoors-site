@@ -1,4 +1,4 @@
-# Curry Outdoors — public site
+# Old Crew Outdoors — public site
 
 Two static pages, deliberately dependency-free, served by GitHub Pages:
 
